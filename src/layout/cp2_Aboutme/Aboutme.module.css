@@ -5,6 +5,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin: 0;
+    /* height: 80vh; */
   }
   .left {
     display: flex;
@@ -13,41 +14,58 @@
     align-items: center;
     width: 50vw;
     /* background-image: linear-gradient(#c04848, #480048); */
-      background-color: #e1cee1;
+    background-color: #8b3636;
     color: white;
     padding: 20px;
-    height: 70vh;
+    height: 100vh;
   }
   .left:hover{
-        /* background-image: linear-gradient(to right,#000428, #004e92);
-         */
          background-color: #c04848;
-  
   }
-  
-  
-  
-  
-  
-  
   .right {
     display: flex;
+    flex-direction: column;
     width: 50vw;
-    /* background-image: linear-gradient(#4b6cb7, #182848); */
-    background-color: #19e0f2;
-    height: 70vh;
-  
-    justify-content: center;
-    align-items: center;
+    background-color: #0F172A;
+    height: 100vh;
+    padding: 2rem;
+    /* align-items: center; */
+    color: white;
   }
-  
+  .right .about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    /* align-items: center; */
+
+  }
+  .right .about h1{
+    font-size: 3vw;
+  }
+
+.right .Exprerien{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.right .Exprerien h3{
+  font-size: 1rem;
+
+
+}
   
   @media screen and (max-width: 992px) {
     .right {
       width: 100vw;
+      height: 80vh;
+
     }
     .left {
       width: 100vw;
+      height: 80vh;
+
     }
     .main {
       display: grid;
@@ -57,4 +75,14 @@
       grid-row-gap: 0px;
     }
   }
-  
+ .right  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    
+  }
+  .right  a:hover{
+    /* text-decoration:dashed; */
+    color: pink;
+    
+  }

@@ -2,15 +2,15 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './Navcompo.css'
-function Navcompo() {
+import styles from './Navcomponen.module.css';
+function NavBarComponents() {
   const navStyle = {
     color: 'white', // Set text color to white
     fontWeight: 'bold' // Make text bold󠁼
   };
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" className='navbar' >
+    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" className={styles.navbar} >
       <Container className='navbar'>
         <Navbar.Brand href="#home" className='' style={navStyle}>CHE | THANIN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -32,4 +32,4 @@ function Navcompo() {
   );
 }
 
-export default Navcompo;
+export default NavBarComponents;

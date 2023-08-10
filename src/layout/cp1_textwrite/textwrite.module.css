@@ -43,8 +43,16 @@
   justify-content: center;
   align-items: center;
 }
-h1 {
-  font-size: 4vw;
+.main .left h1 {
+  font-size: 7rem;
+  color: white;
+}
+.main .left .lefteffect h1{
+  font-size: 7rem;
+  color: white;
+}
+.main .right h1{
+  font-size: 7rem;
   color: white;
 }
 img {
@@ -59,8 +67,17 @@ img {
   .left {
     width: 100vw;
   }
-  .left-effect{
+  .lefteffect{
     display:block;
+}
+.main .left h1 {
+  font-size: 4rem;
+}
+.main .left .lefteffect h1{
+  font-size: 4rem;
+}
+.main .right h1{
+  font-size: 4rem;
 }
   
   .main {
