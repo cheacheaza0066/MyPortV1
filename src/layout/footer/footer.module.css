@@ -1,0 +1,32 @@
+.body{
+    display: flex;
+ 
+    background-color: #14162B;
+    color: white;
+    height: 60vh;
+    flex-direction: column;
+}
+.main{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+h1{
+    text-align: center;
+}
+
+/* SocialIcons.module.css */
+
+ /* .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .icon {
+    margin: 0.5rem;
+    width: 40px;
+    height: 40px;
+  } 
+  

@@ -2,16 +2,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import styles from './Navcomponen.module.css';
-function NavBarComponents() {
+import styles from './MyNavbar.module.css';
+function MyNavbar() {
   const navStyle = {
     color: 'white', // Set text color to white
     fontWeight: 'bold' // Make text bold󠁼
   };
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" className={styles.navbar} >
-      <Container className='navbar'>
+    <Navbar collapseOnSelect expand="lg"  variant="dark" className={styles.navbar} >
+      <Container>
         <Navbar.Brand href="#home" className='' style={navStyle}>CHE | THANIN</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,10 +19,10 @@ function NavBarComponents() {
             
           </Nav>
           <Nav>
-            <Nav.Link href="#deets" style={navStyle}>My Work</Nav.Link>
-            <Nav.Link href="#deets" style={navStyle}>My Profile</Nav.Link>
-            <Nav.Link href="#deets" style={navStyle}>Blog</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" style={navStyle}>
+            <Nav.Link href="#deets" style={navStyle} className='fs-5'>My Work</Nav.Link>
+            <Nav.Link href="#deets" style={navStyle} className='fs-5'>My Profile</Nav.Link>
+            <Nav.Link href="#deets" style={navStyle} className='fs-5'>Blog</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes" style={navStyle} className='fs-5'> 
               Potfolio
             </Nav.Link>
           </Nav>
@@ -32,4 +32,4 @@ function NavBarComponents() {
   );
 }
 
-export default NavBarComponents;
+export default MyNavbar;

@@ -1,5 +1,6 @@
+import CardWork from "../../components/Card/CardWork";
 import styles from "./MyWork.module.css";
-
+import cardData from "./data";
 function MyWork() {
   return (
     <div className={styles.main}>
@@ -7,7 +8,12 @@ function MyWork() {
             <h1 className={styles.head}>good website is a website that is both beautiful and answers the question</h1>
             <h1 className={styles.head2}>And this is all my Project</h1>
 
-            <p className="text-secondary fs4 fw-bold mt-3">this is all my project i build Using react </p>
+            {/* <p className="text-secondary fs4 fw-bold mt-3">this is all my project i build Using react </p> */}
+        </div>
+        <div className={styles.MyProject}>
+        {cardData.map((card, index) => (
+                <CardWork key={index} {...card} />
+            ))}
         </div>
     </div>
   )

@@ -1,25 +1,32 @@
-// import React from 'react'
-
+import  { useContext } from "react";
 import TextWriter from "../../components/textwriter/TextWriter";
 import styles from "./textwrite.module.css";
-function TextWrite() {
-  return (
-    <div className={styles.main}>
-      <div className={styles.left}>
-        <h1>LOVE</h1>
-        <div className={styles.lefteffect}>
-            <h1>
-            <TextWriter />
+import { HoverContext } from "../../services/HoverContext";
 
+
+function TextWrite() {
+  const { setIsHovered } = useContext(HoverContext);
+
+  
+
+  return (
+      <div className={styles.main}>
+        <div className={styles.left}  onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}>
+          <h1>LOVE</h1>
+          <div className={styles.lefteffect}>
+            <h1>
+              <TextWriter />
             </h1>
+          </div>
+        </div>
+        <div className={styles.right} onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}>
+          <h1>
+            <TextWriter />
+          </h1>
         </div>
       </div>
-      <div className={styles.right}>
-        <h1>
-          <TextWriter />
-        </h1>
-      </div>
-    </div>
   );
 }
 

@@ -1,0 +1,25 @@
+.cardLink .title{
+    color: white;
+    text-align: center;
+}
+.cardLink .body{
+    background-color: #14162B;
+}
+.cardLink{
+    text-decoration: none;
+    color: white;
+}
+.card {
+    transition: transform 0.3s; /* Add a smooth transition to the transform property */
+   
+}
+.image{
+    height: 20rem;
+}
+  
+  .card:hover {
+    transform: translateY(-10px); /* Apply a vertical translation on hover */
+    /* Add any other styles you want when the card is hovered */
+  }
+  
+  /* Add other styles as needed */
