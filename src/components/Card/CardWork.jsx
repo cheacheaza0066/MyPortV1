@@ -2,7 +2,10 @@ import Card from "react-bootstrap/Card";
 import styles from "./CardWork.module.css";
 
 // eslint-disable-next-line react/prop-types
-function CardWork({ image, title, link }) {
+// function CardWork({ image, title, link }) {
+// eslint-disable-next-line react/prop-types
+  function CardWork({ image, title }) {
+
   return (
     <div>
       {/* Use an anchor tag to wrap the Card */}
