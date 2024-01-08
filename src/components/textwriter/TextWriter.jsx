@@ -8,10 +8,10 @@ function TextWriter() {
       // Same substring at the start will only be typed out once, initially
       'Coading.',
       1000, // wait 1s before replacing "Mice" with "Hamsters"
-      'WEBSITE',
+      'WEBSITE.',
       1000,
-      'PROGRAM',
-      1000,
+      // 'PROGRAM.',
+      // 1000,
 
     
     ]}
