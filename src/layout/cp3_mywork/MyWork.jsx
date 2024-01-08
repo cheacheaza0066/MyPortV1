@@ -6,7 +6,7 @@ function MyWork() {
     <div className={styles.main}>
         <div className={styles.top}>
             {/* <h1 className={styles.head}>good website is a website that is both beautiful and answers the question</h1> */}
-            <h1 className={styles.head}>And this is my project that I developed</h1>
+            <h1 className={styles.head}>This is an example of my work</h1>
 
             {/* <h1 className={styles.head2}>↓</h1> */}
 

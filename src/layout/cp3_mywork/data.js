@@ -8,21 +8,7 @@ const Mydata = [
     title : 'Spotify',
     link : 'https://open.spotify.com/'
 }
-,{
-    image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1hem9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-    title : 'Amazon',
-    link : 'https://www.amazon.com/'
-}
-,{
-    image : 'https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRlc2xhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-    title : 'Tesla',
-    link : 'https://www.tesla.com/'
-}
-,{
-    image : 'https://images.unsplash.com/photo-1581862142388-23e1c52ca091?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG95b3RhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-    title : 'TOYOTA',
-    link : 'https://www.toyota.co.th/cover'
-}
+
 
 ]
 

@@ -10,7 +10,7 @@ function Footer() {
       <div className={styles.main}>
         <div>
             <h4>Contact Me</h4>
-            <p className='mt-4'>☎️ 0623096905</p>
+            <p className='mt-4'>☎️ 062-309-6905</p>
             <p>📧 chea14chainat@gmail.com</p>
         </div>
 
@@ -19,17 +19,17 @@ function Footer() {
         <h4>Social</h4>
       <SocialIcon
         className={styles.icon}
-        url="https://www.facebook.com/your-facebook-profile"
+        url="https://www.facebook.com/chayan.hmt?locale=th_TH"
         target="_blank"
       />
-      <SocialIcon
+      {/* <SocialIcon
         className={styles.icon}
         url="https://twitter.com/your-twitter-profile"
         target="_blank"
-      />
+      /> */}
       <SocialIcon
         className={styles.icon}
-        url="https://instagram.com/your-twitter-profile"
+        url="https://www.instagram.com/thanin_pitakpoolsin/"
         target="_blank"
       />
 
