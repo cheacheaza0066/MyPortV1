@@ -8,9 +8,9 @@ function TextWriter() {
       // Same substring at the start will only be typed out once, initially
       'Coading.',
       1000, // wait 1s before replacing "Mice" with "Hamsters"
-      'UX | UI.',
+      'WEBSITE',
       1000,
-      'YOU',
+      'PROGRAM',
       1000,
 
     

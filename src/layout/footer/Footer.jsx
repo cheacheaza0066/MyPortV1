@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className={styles.body}>
       <h1 className='mt-5'>
-            IF You like my website contact me below here ⬇️ 
+            You can contact me below here ⬇️ 
       </h1>
       <div className={styles.main}>
         <div>

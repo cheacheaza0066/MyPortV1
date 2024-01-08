@@ -15,7 +15,7 @@ function Main() {
             <MyNavbar/>
             <TextWrite/>
             <Aboutme/>
-            <MyWork/>
+            {/* <MyWork/> */}
             <Footer/>
             </HoverProvider>
 

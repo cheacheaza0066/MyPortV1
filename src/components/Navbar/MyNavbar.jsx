@@ -19,12 +19,12 @@ function MyNavbar() {
             
           </Nav>
           <Nav>
-            <Nav.Link href="#deets" style={navStyle} className='fs-5'>My Work</Nav.Link>
-            <Nav.Link href="#deets" style={navStyle} className='fs-5'>My Profile</Nav.Link>
-            <Nav.Link href="#deets" style={navStyle} className='fs-5'>Blog</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" style={navStyle} className='fs-5'> 
+            <Nav.Link href="https://drive.google.com/drive/folders/1l0SHR66QvsCEdzQyJaSB2GtdfUkNwnHr?usp=sharing" style={navStyle} className='fs-5'>My Resume</Nav.Link>
+            {/* <Nav.Link href="#" style={navStyle} className='fs-5'>Contact Me</Nav.Link> */}
+            {/* <Nav.Link href="#" style={navStyle} className='fs-5'>Blog</Nav.Link> */}
+            {/* <Nav.Link eventKey={2} href="#memes" style={navStyle} className='fs-5'> 
               Potfolio
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
